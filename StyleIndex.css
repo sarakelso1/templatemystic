@@ -1,0 +1,14 @@
+body {
+	font-family: 'Merriweather', serif;
+	color: #333;
+	background-color: #076476; /* Deep Teal Background */
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	width: 90%
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 1em 0;
+}
