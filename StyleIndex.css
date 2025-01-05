@@ -12,3 +12,101 @@ body {
 	margin: 0 auto;
 	padding: 1em 0;
 }
+
+header {
+	text-align: center;
+	padding: 2em 0;
+	background-color: #2c5f2d; /* Forest Green Background */
+	color: #ffffff;
+}
+
+header h1 {
+	font-family: 'Monserrat', sans-serif;
+	font-size: 3em;
+	margin: 0.5em 0;
+}
+
+/* Basic styling for the navigation menu */
+nav ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	background-color: #076476; /* Deep Teal */
+	text-align: center;
+}
+
+nav ul li a {
+	display: block;
+	padding: 14px 16px;
+	color: #dc6d15; /*Vibrant Orange */
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+}
+
+nav ul li a:hover {
+	background-color: #0ab7a7; /* Refreshing Aqua */
+}
+
+/*Dropdown menu */
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #ffffff;
+	min-width: 160px;
+	z-index: 1;
+	text-align: left;
+}
+
+.dropdown-content li {
+	display: block;
+}
+
+.dropdown-content li a {
+	color: #076476; /* Deep Teal */
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	font-family: 'montserrat', sans-serif;
+}
+
+.dropdown-content li a:hover {
+	background-color: #dc6d15; /* Vibrant Orange */
+	color: #ffffff;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+/* styling for the search form */
+.search-form {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 20px;
+}
+
+.search-form input[type="text"] {
+	padding: 8px;
+	border: 1px solid #ccc;
+	border-radius: 4px 0 0 4px;
+	outline: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+}
+
+.search-form button {
+	padding: 8px 16px;
+	border: none;
+	background-color: #dc6d15; /* Vibrant Orange */
+	color: #ffffff;
+	border-radius: 0 4px 4px 0;
+	cursor: pointer;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
+}
+
+.search-form button:hover {
+	background-color: #o76476; /* Deep Teal */
+}
