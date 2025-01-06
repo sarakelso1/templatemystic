@@ -45,17 +45,6 @@ header h2 {
 	margin: 0.5em 0;
 }
 
-.cta-button {
-	font-family: 'Bebas Neue', sans-serif;
-	background-color: #dc6d15; /* Vibrant Orange */
-	color: #ffffff;
-	padding: 1em 2em;
-	border: none;
-	cursor: pointer;
-	font-size: 1.2em;
-	margin-top: 1em;
-}
-
 /* Basic styling for the navigation menu */
 .navbar {
 	width: 100%;
@@ -72,7 +61,7 @@ header h2 {
 .nav-buttom {
 	color: #99ccff; /* Light Blue */
 	text-decoration: none;
-	padding: 10px 20px;
+	padding: 20px 28px;
 	background-color: #e9d3b0; /* Cream */
 	border: 2px solid #99ccff; /* Light Blue */
 	border-radius: 5px;
@@ -81,7 +70,6 @@ header h2 {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 1.2em;
-	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 .nav-button:hover,
 .dropdown:hover .nav-button{
@@ -104,7 +92,6 @@ header h2 {
 	border-radius: 5px;
 	border: 2px solid #99ccff; /* Light Blue */
 	box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Dropdown shadow effect */
-	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 .dropdown-content a {
 	display: block;
@@ -120,7 +107,7 @@ header h2 {
 	text-decoration: underline;
 	font-family: 'Montserrat', sans-serif;
 }
-.dropdow:hover .dropdown-content {
+.dropdown:hover .dropdown-content {
 	display: block;
 }
 
@@ -157,6 +144,7 @@ input[type="text"] {
 	border-radius: 5px;
 		transform: translateY(2px); /* Move down on hover */
 }
+
 .hero {
 	background-color: #2c5f2d; /* Forest Green */
 	text-align: center;
