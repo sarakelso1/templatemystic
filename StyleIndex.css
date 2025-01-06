@@ -61,6 +61,8 @@ nav {
 	background-color: cacbcd; /* Gray */
 	margin: 0; /* Remove margin */
 	padding: 0; /* Remove padding */
+	width: 100%;
+	height: 70px;
 }
 nav .container {
 	display: flex;
