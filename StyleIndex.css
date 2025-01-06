@@ -1,7 +1,7 @@
 body {
 	font-family: 'Merriweather', serif;
 	color: #333;
-	background-color: #cacbcd; /* Gray */
+	background-color: #e9d3b0; /* Cream */
 	margin: 0;
 	padding: 0;
 }
@@ -57,113 +57,105 @@ header h2 {
 }
 
 /* Basic styling for the navigation menu */
-nav {
-	background-color: cacbcd; /* Gray */
-	margin: 0; /* Remove margin */
-	padding: 0; /* Remove padding */
+.navbar {
 	width: 100%;
-	height: 50px;
-}
-nav .container {
 	display: flex;
-	align-items: center; 
+	align-items: center;
+	justify-content: space-between;
+	background-color: #1c6f3a /* Dark Green */
+	padding: 10px;
 }
-nav ul {
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	display: flex; /* Makes the nav horzontal*/
-	justify-content: center; /* Centers the nav items */
-	background-color: #cacbcd; /* Gray */
+.dropdown {
+	position: relative;
+	display: inline-block;
 }
-nav ul li {
-	position: relative; /* Position the dropdown relative to the parent */
-}
-nav ul li a {
-	display: block;
-	padding: 18px 20px;
-	margin: 5px;
-	color: #0ab7a7; /* Aqua */
+.nav-buttom {
+	color: #99ccff; /* Light Blue */
 	text-decoration: none;
+	padding: 10px 20px;
+	background-color: #e9d3b0; /* Cream */
+	border: 2px solid #99ccff; /* Light Blue */
+	border-radius: 5px;
+	cursor: pointer;
+	margin-right: 5px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 1.2em;
-	border: 2px solid #ccc; /* Border for 3D effect */
-	border-radius: 5px;
-	background-color: #cacbcd; /* Button background color Gray */
-	box-shadow: 0 4px #999; /* 3D shadow effect */
 	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
-nav ul li a:hover {
-	color: #cacbcd; /* Gray */
-	background-color: #0ab7a7; /* Aqua */
+.nav-button:hover,
+.dropdown:hover .nav-button{
+	color: #fea4da; /* Light Pink */
+	background-color: #e9d3b0; /* Cream */
 	text-decoration: underline;
+	border: 2px solid #fea4da; /* Light Pink */
 	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
 	transform: translateY(2px); /* Move down on hover */
 }
 
-/*Dropdown menu */
+/* Dropdown menu */
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #cacbcd; /* Gray */
+	background-color: #e9d3b0; /* Cream */
 	min-width: 160px;
 	z-index: 1;
 	text-align: left;
 	border-radius: 5px;
-	box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Dropdown shadow effect */
+	border: 2px solid #99ccff; /* Light Blue */
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Dropdown shadow effect */
+	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
-.dropdown-content li {
+.dropdown-content a {
 	display: block;
-}
-.dropdown-content li a {
-	color: #0ab7a7; /* Aqua */
-	padding: 20px 24px;
+	color: #99ccff; /* Light Blue */
+	padding: 12px 16px;
 	text-decoration: none;
-	display: block;
+}
+.dropdown-content a:hover {
+	color: #fea4da; /* Light Pink */
+	background-color: #e9d3b0; /* Cream */
+	border-radius: 5px;
+	border: 2px soild #fea4da; /* Light Pink */
+	text-decoration: underline;
 	font-family: 'Montserrat', sans-serif;
 }
-.dropdown-content li a:hover {
-	background-color: #2c5f2d; /* Forest Green */
-	color: #fe58bb; /* Pink */
-}
-
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
+.dropdow:hover .dropdown-content {
 	display: block;
 }
 
-/* styling for the search form */
-.search-form {
+/* Search Box */
+.search-container {
 	display: flex;
-	align-items: right;
+	align-items: center;
 }
-.search-form input[type="text"] {
-	padding: 8px;
-	border: 1px solid #ccc;
-	border-radius: 4px 0 0 4px;
+input[type="text"] {
+	padding: 10px;
+	border: 2px solid #1c6f3a; /* Dark Green */
+	border-radius: 5px;
+	margin-right: 5px;
 	outline: none;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
 }
-.search-form button {
-	padding: 8px 16px;
+.search-button {
+	padding: 10px;
 	margin: 1px;
-	border: none;
-	background-color: #dc6d15; /* orange */
-	color: #ffffff; /* White */
-	border-radius: 0 4px 4px 0;
+	border: 2px soild #c888f6; /* Light Purple */
+	background-color: #1c6f3a; /* Dark Green */
+	color: #c888f6; /* Light Purple */
+	border-radius: 5px;
 	cursor: pointer;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
-	box-shadow: 0 4px #999; /* 3D shadow effect */
 	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 .search-form button:hover {
-	background-color: #0ab7a7; /* Aqua */
-	color: #ffffff; /* White */
-	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
-	transform: translateY(2px); /* Move down on hover */
+	background-color: #e9d3b0; /* Cream */
+	color: #c888f6; /* Light Purple */
+	border: 2px soild #c888f6;
+	border-radius: 5px;
+		transform: translateY(2px); /* Move down on hover */
 }
 .hero {
 	background-color: #2c5f2d; /* Forest Green */
