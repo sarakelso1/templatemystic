@@ -58,11 +58,11 @@ header h2 {
 	position: relative;
 	display: inline-block;
 }
-.nav-buttom {
+.nav-button {
 	color: #99ccff; /* Light Blue */
 	text-decoration: none;
 	padding: 20px 28px;
-	background-color: #e9d3b0; /* Cream */
+	background-color: #1c6f3a; /* Dark Green */
 	border: 2px solid #99ccff; /* Light Blue */
 	border-radius: 5px;
 	cursor: pointer;
@@ -137,7 +137,7 @@ input[type="text"] {
 	font-size: 1em;
 	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
-.search-form button:hover {
+.search-button:hover {
 	background-color: #e9d3b0; /* Cream */
 	color: #c888f6; /* Light Purple */
 	border: 2px soild #c888f6;
