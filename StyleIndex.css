@@ -147,8 +147,8 @@ nav ul li a:hover {
 .search-form button {
 	padding: 8px 16px;
 	border: none;
-	background-color: #0ab7a7; /* Aqua */
-	color: #cacbcd; /* Gray */
+	background-color: #dc6d15; /* orange */
+	color: #ffffff; /* White */
 	border-radius: 0 4px 4px 0;
 	cursor: pointer;
 	font-family: 'Montserrat', sans-serif;
@@ -157,8 +157,8 @@ nav ul li a:hover {
 	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 .search-form button:hover {
-	background-color: #2c5f2d; /* Forest Green */
-	color: #fe58bb; /* Pink */
+	background-color: #0ab7a7; /* Aqua */
+	color: #ffffff; /* White */
 	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
 	transform: translateY(2px); /* Move down on hover */
 }
