@@ -61,7 +61,7 @@ header h2 {
 .nav-button {
 	color: #99ccff; /* Light Blue */
 	text-decoration: none;
-	padding: 18px 24px;
+	padding: 14px 24px;
 	background-color: #1c6f3a; /* Dark Green */
 	border: 2px solid #99ccff; /* Light Blue */
 	border-radius: 5px;
@@ -128,9 +128,9 @@ input[type="text"] {
 .search-button {
 	padding: 10px;
 	margin: 1px;
-	border: 2px soild #c888f6; /* Light Purple */
+	border: 2px soild #99ccff; /* Light Blue */
 	background-color: #1c6f3a; /* Dark Green */
-	color: #c888f6; /* Light Purple */
+	color: #99ccff; /* Light Blue */
 	border-radius: 5px;
 	cursor: pointer;
 	font-family: 'Montserrat', sans-serif;
@@ -139,7 +139,7 @@ input[type="text"] {
 }
 .search-button:hover {
 	background-color: #1c6f3a; /* Dark Green */
-	color: #c888f6; /* Light Purple */
+	color: #fea4d; /* Light Pink */
 	border: 2px soild #c888f6;
 	border-radius: 5px;
 		transform: translateY(2px); /* Move down on hover */
