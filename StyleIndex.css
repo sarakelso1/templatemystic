@@ -14,9 +14,10 @@ body {
 
 /* Header styling */
 header {
+	display: block;
 	justify-content: space-between;
 	align-items: center;
-	padding: 2em 0;
+	padding: 0;
 	background-color: #6a0dad; /* Purple */
 	color: #ffffff;
 }
