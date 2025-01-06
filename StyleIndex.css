@@ -61,7 +61,7 @@ header h2 {
 .nav-button {
 	color: #99ccff; /* Light Blue */
 	text-decoration: none;
-	padding: 20px 28px;
+	padding: 18px 24px;
 	background-color: #1c6f3a; /* Dark Green */
 	border: 2px solid #99ccff; /* Light Blue */
 	border-radius: 5px;
@@ -74,7 +74,7 @@ header h2 {
 .nav-button:hover,
 .dropdown:hover .nav-button{
 	color: #fea4da; /* Light Pink */
-	background-color: #e9d3b0; /* Cream */
+	background-color: #1c6f3a; /* Dark Green */
 	text-decoration: underline;
 	border: 2px solid #fea4da; /* Light Pink */
 	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
@@ -85,7 +85,7 @@ header h2 {
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #e9d3b0; /* Cream */
+	background-color: #1c6f3a; /* Dark Green */
 	min-width: 160px;
 	z-index: 1;
 	text-align: left;
@@ -101,7 +101,7 @@ header h2 {
 }
 .dropdown-content a:hover {
 	color: #fea4da; /* Light Pink */
-	background-color: #e9d3b0; /* Cream */
+	background-color: #1c6f3a; /* Drak Green */
 	border-radius: 5px;
 	border: 2px soild #fea4da; /* Light Pink */
 	text-decoration: underline;
@@ -138,7 +138,7 @@ input[type="text"] {
 	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 .search-button:hover {
-	background-color: #e9d3b0; /* Cream */
+	background-color: #1c6f3a; /* Dark Green */
 	color: #c888f6; /* Light Purple */
 	border: 2px soild #c888f6;
 	border-radius: 5px;
