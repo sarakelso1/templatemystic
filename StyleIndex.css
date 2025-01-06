@@ -83,12 +83,13 @@ nav ul li a {
 	display: block;
 	width: 100%;
 	hieght: 70px;
-	padding: 5px;
+	padding: 18px 24px;
 	margin: 5px;
 	color: #0ab7a7; /* Aqua */
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	font-size: 1.2em;
 	border: 2px solid #ccc; /* Border for 3D effect */
 	border-radius: 5px;
 	background-color: #cacbcd; /* Button background color Gray */
