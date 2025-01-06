@@ -80,7 +80,7 @@ nav ul li {
 }
 nav ul li a {
 	display: block;
-	padding: 20px 24px;
+	padding: 5px;
 	margin: 5px;
 	color: #0ab7a7; /* Aqua */
 	text-decoration: none;
@@ -94,7 +94,7 @@ nav ul li a {
 }
 nav ul li a:hover {
 	color: #fe58bb; /* Pink */
-	background-color: #2c5f2d; /* Forest Green */
+	background-color: #0ab7a7; /* Aqua */
 	text-decoration: underline;
 	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
 	transform: translateY(2px); /* Move down on hover */
