@@ -1,7 +1,7 @@
 body {
 	font-family: 'Merriweather', serif;
 	color: #333;
-	background-color: #cacbcd; /* Deep Teal Background */
+	background-color: #cacbcd; /* Gray */
 	margin: 0;
 	padding: 0;
 }
@@ -13,6 +13,7 @@ body {
 	display: flex;
 	align-items: center;
 }
+
 /* Header styling */
 header {
 	display: flex;
@@ -58,13 +59,23 @@ header h2 {
 }
 
 /* Basic styling for the navigation menu */
+nav {
+	background-color: cacbcd; /* Gray */
+	margin: 0; /* Remove margin */
+	padding: 0; /* Remove padding */
+}
+nav .container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center; 
+}
 nav ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	display: flex; /* Makes the nav horzontal*/
 	justify-content: center; /* Centers the nav items */
-	background-color: #f1dc9a; /* Tan */
+	background-color: #cacbcd; /* Gray */
 }
 nav ul li {
 	position: relative; /* Position the dropdown relative to the parent */
@@ -79,7 +90,7 @@ nav ul li a {
 	font-weight: bold;
 	border: 2px solid #ccc; /* Border for 3D effect */
 	border-radius: 5px;
-	background-color: #f1dc9a; /* Button background color tan */
+	background-color: #cacbcd; /* Button background color Gray */
 	box-shadow: 0 4px #999; /* 3D shadow effect */
 	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
@@ -90,11 +101,12 @@ nav ul li a:hover {
 	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
 	transform: translateY(2px); /* Move down on hover */
 }
+
 /*Dropdown menu */
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #f1dc9a; /* tan */
+	background-color: #cacbcd; /* Gray */
 	min-width: 160px;
 	z-index: 1;
 	text-align: left;
@@ -115,15 +127,16 @@ nav ul li a:hover {
 	background-color: #2c5f2d; /* Forest Green */
 	color: #fe58bb; /* Pink */
 }
+
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
 	display: block;
 }
+
 /* styling for the search form */
 .search-form {
-	display: inline-block;
-	vertical-align: middle;
-	margin-left: 20px;
+	display: flex;
+	align-items: center;
 }
 .search-form input[type="text"] {
 	padding: 8px;
@@ -137,12 +150,12 @@ nav ul li a:hover {
 	padding: 8px 16px;
 	border: none;
 	background-color: #0ab7a7; /* Aqua */
-	color: #f1dc9a; /* Tan */
+	color: #cacbcd; /* Gray */
 	border-radius: 0 4px 4px 0;
 	cursor: pointer;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
-	box-shadow: 04px #999; /* 3D shadow effect */
+	box-shadow: 0 4px #999; /* 3D shadow effect */
 	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 .search-form button:hover {
