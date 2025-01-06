@@ -95,7 +95,7 @@ nav ul li a {
 	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 nav ul li a:hover {
-	color: #fe58bb; /* Pink */
+	color: #cacbcd; /* Gray */
 	background-color: #0ab7a7; /* Aqua */
 	text-decoration: underline;
 	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
@@ -148,6 +148,7 @@ nav ul li a:hover {
 }
 .search-form button {
 	padding: 8px 16px;
+	margin: 8px;
 	border: none;
 	background-color: #dc6d15; /* orange */
 	color: #ffffff; /* White */
