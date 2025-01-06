@@ -11,6 +11,7 @@ body {
 	margin: 0 auto;
 	padding: 1em 0;
 }
+/* Header styling */
 header {
 	text-align: center;
 	padding: 2em 0;
@@ -28,6 +29,7 @@ header h2 {
 	font-size: 2em;
 	margin: 0.5em 0;
 }
+
 .cta-button {
 	font-family: 'Bebas Neue', sans-serif;
 	background-color: #dc6d15; /* Vibrant Orange */
@@ -38,48 +40,64 @@ header h2 {
 	font-size: 1.2em;
 	margin-top: 1em;
 }
+
 /* Basic styling for the navigation menu */
 nav ul {
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
-	background-color: #076476; /* Deep Teal */
-	text-align: center;
+	display: flex; /* Makes the nav horzontal*/
+	justify-content: center; /* Centers the nav items */
+	background-color: #f1dc9a; /* Tan */
+}
+nav ul li {
+	position: relative; /* Position the dropdown relative to the parent */
 }
 nav ul li a {
 	display: block;
-	padding: 14px 16px;
-	color: #dc6d15; /*Vibrant Orange */
+	padding: 20px 24px;
+	margin: 5px;
+	color: #0ab7a7; /* Aqua */
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
+	border: 2px solid #ccc; /* Border for 3D effect */
+	border-radius: 5px;
+	background-color: #f1dc9a; /* Button background color tan */
+	box-shadow: 0 4px #999; /* 3D shadow effect */
+	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 nav ul li a:hover {
-	background-color: #0ab7a7; /* Refreshing Aqua */
+	color: #fe58bb; /* Pink */
+	background-color: #2c5f2d; /* Forest Green */
 	text-decoration: underline;
+	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
+	transform: translateY(2px); /* Move down on hover */
 }
 /*Dropdown menu */
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #ffffff;
+	background-color: #f1dc9a; /* tan */
 	min-width: 160px;
 	z-index: 1;
 	text-align: left;
+	border-radius: 5px;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Dropdown shadow effect */
 }
 .dropdown-content li {
 	display: block;
 }
 .dropdown-content li a {
-	color: #076476; /* Deep Teal */
-	padding: 12px 16px;
+	color: #0ab7a7; /* Aqua */
+	padding: 20px 24px;
 	text-decoration: none;
 	display: block;
-	font-family: 'montserrat', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 }
 .dropdown-content li a:hover {
-	background-color: #dc6d15; /* Vibrant Orange */
-	color: #ffffff;
+	background-color: #2c5f2d; /* Forest Green */
+	color: #fe58bb; /* Pink */
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
@@ -102,15 +120,20 @@ nav ul li a:hover {
 .search-form button {
 	padding: 8px 16px;
 	border: none;
-	background-color: #dc6d15; /* Vibrant Orange */
-	color: #ffffff;
+	background-color: #0ab7a7; /* Aqua */
+	color: #f1dc9a; /* Tan */
 	border-radius: 0 4px 4px 0;
 	cursor: pointer;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 1em;
+	box-shadow: 04px #999; /* 3D shadow effect */
+	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 .search-form button:hover {
-	background-color: #o76476; /* Deep Teal */
+	background-color: #2c5f2d; /* Forest Green */
+	color: #fe58bb; /* Pink */
+	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
+	transform: translateY(2px); /* Move down on hover */
 }
 .hero {
 	background-color: #2c5f2d; /* Forest Green */
