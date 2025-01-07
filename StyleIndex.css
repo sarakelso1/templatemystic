@@ -63,10 +63,10 @@ header h2 {
 	text-decoration: none;
 	padding: 10px 24px;
 	background-color: #98e3ff; /* Blue */
-	border: 2px solid #000000; /* Black */
+	border: 1px solid #000000; /* Black */
 	border-radius: 5px;
 	cursor: pointer;
-	margin-right: 5px;
+	margin-right: 2px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 1.2em;
@@ -76,7 +76,7 @@ header h2 {
 	color: #000000; /* Black */
 	background-color: #ff98e3; /* Pink */
 	text-decoration: underline;
-	border: 2px solid #000000; /* Black */
+	border: 1px solid #000000; /* Black */
 	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
 	transform: translateY(2px); /* Move down on hover */
 }
@@ -140,7 +140,7 @@ input[type="text"] {
 .search-button:hover {
 	background-color: #ff98e3; /* Pink */
 	color: #000000; /* Black */
-	border: 2px soild #000000; /* Black */
+	border: 1px soild #000000; /* Black */
 	border-radius: 5px;
 		transform: translateY(2px); /* Move down on hover */
 }
