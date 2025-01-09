@@ -1,7 +1,7 @@
 body {
-	font-family: 'Merriweather', serif;
+	font-family: 'High Tower', serif;
 	color: #333;
-	background-color: #000000; /* Black */
+	background-color: #f6f4e9; /* Cream */
 	margin: 0;
 	padding: 0;
 }
@@ -64,7 +64,7 @@ header h2 {
 	align-items: center;
 	justify-content: space-between;
 	background-color: #000000; /* Black */
-	padding: 10px;
+	padding: 2px
 }
 .dropdown {
 	position: relative;
@@ -78,7 +78,7 @@ header h2 {
 	border: 1px solid #000000; /* Black */
 	cursor: pointer;
 	margin-right: 0px;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Source Sans', sans-serif;
 	font-weight: bold;
 	font-size: 1.2em;
 }
@@ -116,7 +116,7 @@ header h2 {
 	border-top: 2px soild #ffffff; /* White */
 	border-bottom: 2px solid #ffffff; /* White */
 	text-decoration: underline;
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Source Sans', sans-serif;
 }
 .dropdown:hover .dropdown-content {
 	display: block;
