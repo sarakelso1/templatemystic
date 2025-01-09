@@ -6,10 +6,22 @@ body {
 	padding: 0;
 }
 .container {
-	width: 90%
+	width: 90%;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 1em 0;
+}
+@font-face {
+	font-family: 'High Tower';
+	src: url('fonts/High Tower.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Monotype';
+	src: url('fonts/Monotype.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Source Sans';
+	src: url('fonts/Source Sans.ttf') format('truetype');
 }
 
 /* Header styling */
@@ -61,22 +73,21 @@ header h2 {
 .nav-button {
 	color: #000000; /* Black */
 	text-decoration: none;
-	padding: 10px 24px;
+	padding: 10px 20px;
 	background-color: #98e3ff; /* Blue */
 	border: 1px solid #000000; /* Black */
-	border-radius: 5px;
 	cursor: pointer;
-	margin-right: 2px;
+	margin-right: 0px;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: bold;
 	font-size: 1.2em;
 }
 .nav-button:hover,
 .dropdown:hover .nav-button{
-	color: #000000; /* Black */
-	background-color: #ff98e3; /* Pink */
+	color: #ffffff; /* White */
+	background-color: #007dac; /* Dark Blue */
 	text-decoration: underline;
-	border: 1px solid #000000; /* Black */
+	border: 2px solid #ffffff; /* White */
 	box-shadow: 0 2px #666; /* 3D shadow effect on hover */
 	transform: translateY(2px); /* Move down on hover */
 }
@@ -89,8 +100,8 @@ header h2 {
 	min-width: 160px;
 	z-index: 1;
 	text-align: left;
-	border-radius: 5px;
-	border: 2px solid #000000; /* Black */
+	border-top: 2px solid #000000; /* Black */
+	Border-bottom: 2px solid #000000; /* Black */
 	box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Dropdown shadow effect */
 }
 .dropdown-content a {
@@ -100,10 +111,10 @@ header h2 {
 	text-decoration: none;
 }
 .dropdown-content a:hover {
-	color: #000000; /* Black */
-	background-color: #ff98e3; /* Pink */
-	border-radius: 5px;
-	border: 2px soild #000000; /* Black */
+	color: #ffffff; /* White */
+	background-color: #007dac; /* Dark Blue */
+	border-top: 2px soild #ffffff; /* White */
+	border-bottom: 2px solid #ffffff; /* White */
 	text-decoration: underline;
 	font-family: 'Montserrat', sans-serif;
 }
