@@ -31,20 +31,25 @@ header {
 	background-position: center;
 	height: 200px;
 	display: flex;
-	justify-content: space-between;
+	justify-content: flex-end;
 	align-items: flex-start;
 	padding:10px 20 px;
 	color: #000000; /* Black */
 }
+.nav-user-info {
+	display: flex;
+	align-items: center;
+}
 .nav {
 	display: flex;
 	align-items: center;
+	margin-right: 20px;
 }
 .nav a {
 	color: #000000; /* Black */
 	margin-right: 5px;
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1.4em;
 }
 .nav a:hover {
 	text-decoration: underline;
@@ -58,7 +63,7 @@ header {
 	margin-right: 5px;
 	color: #000000; /* black */
 	text-decoration: none;
-	font-size: 2em;
+	font-size: 1.4em;
 }
 .cart {
 	display: flex;
