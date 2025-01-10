@@ -26,35 +26,31 @@ body {
 
 /* Header styling */
 header {
-	display: block;
-	justify-content: space-between;
+	display: flex;
+	justify-content: flex-end;
 	align-items: center;
-	padding: 0;
-	background-color: #6a0dad; /* Purple */
-	color: #ffffff;
+	background-image: url('background-image.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 200px;
+	padding: 10px 20px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+	color: #000000; /* Black */
 }
-.logo img {
-	max-width: 150px; /* Adjust size as needed */
-	border-radius: 5px; /* optional: to round the corners of the logo */
-	transition: transform 0.3s ease; /* Smooth transition for hover effect */
+.top-right-menu {
+	display: flex;
+	align-items: center;
+	gap: 15px;
 }
-.logo img:hover {
-	transform: scale(1.1); /* Slightly enlarge logo on hover */
+.top-right-menu a,
+#username {
+	text-decoration: none;
+	color: #000000; /* Black */
+	font-weight: bold;
 }
-header h1, header h2 {
-	margin-left: auto;
-	text-align: center;
-}
-header h1 {
-	font-family: 'Monserrat', sans-serif;
-	font-size: 3em;
-	margin: 0.5em 0;
-}
-header h2 {
-	font-family: 'Playfair Display', serif;
-	color: #0ab7a7; /* Refreshing Aqua */
-	font-size: 2em;
-	margin: 0.5em 0;
+.cart-icon {
+	width: 24px;
+	height: 24px;
 }
 
 /* Basic styling for the navigation menu */
