@@ -36,16 +36,11 @@ header {
 	padding: 10px 20px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	color: #000000; /* Black */
-	position: relative;
 }
 .top-right-menu {
-	font-family: 'Monotype', serif;
 	display: flex;
 	align-items: center;
 	gap: 15px;
-	position: absolute;
-	top: 10px;
-	right: 20px;
 }
 .top-right-menu a,
 #username {
@@ -56,11 +51,6 @@ header {
 .cart-icon {
 	width: 24px;
 	height: 24px;
-}
-#cart-count {
-	font-weight: bold;
-	margin-left: 5px;
-	color: #000000; /* Black */
 }
 
 /* Basic styling for the navigation menu */
@@ -148,15 +138,17 @@ input[type="text"] {
 	border: 2px soild #000000; /* Black */
 	background-color: #98e3ff; /* Blue */
 	color: #000000; /* Black */
+	border-radius: 5px;
 	cursor: pointer;
-	font-family: 'Monotype', serif;
-	font-size: 1.2em;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1em;
 	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 .search-button:hover {
-	background-color: #007dac; /* Dark Blue */
-	color: #ffffff; /* White */
-	border: 1px soild #ffffff; /* White */
+	background-color: #ff98e3; /* Pink */
+	color: #000000; /* Black */
+	border: 1px soild #000000; /* Black */
+	border-radius: 5px;
 		transform: translateY(2px); /* Move down on hover */
 }
 
