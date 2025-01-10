@@ -28,7 +28,7 @@ body {
 header {
 	display: flex;
 	justify-content: flex-end;
-	align-items: center;
+	align-items: flex-start;
 	background-image: url('background-image.jpg');
 	background-size: cover;
 	background-position: center;
@@ -36,11 +36,15 @@ header {
 	padding: 10px 20px;
 	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 	color: #000000; /* Black */
+	position: relative;
 }
 .top-right-menu {
 	display: flex;
 	align-items: center;
 	gap: 15px;
+	position: absolute;
+	top: 10px;
+	right: 20px;
 }
 .top-right-menu a,
 #username {
@@ -51,6 +55,11 @@ header {
 .cart-icon {
 	width: 24px;
 	height: 24px;
+}
+#cart-count {
+	font-weight: bold;
+	margin-left: 5px;
+	color: #000000; /* Black */
 }
 
 /* Basic styling for the navigation menu */
