@@ -39,6 +39,7 @@ header {
 	position: relative;
 }
 .top-right-menu {
+	font-family: 'Monotype', serif;
 	display: flex;
 	align-items: center;
 	gap: 15px;
@@ -147,17 +148,15 @@ input[type="text"] {
 	border: 2px soild #000000; /* Black */
 	background-color: #98e3ff; /* Blue */
 	color: #000000; /* Black */
-	border-radius: 5px;
 	cursor: pointer;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 1em;
+	font-family: 'Monotype', serif;
+	font-size: 1.2em;
 	transition: all 0.3s ease; /* Smooth transition for hover effect */
 }
 .search-button:hover {
-	background-color: #ff98e3; /* Pink */
-	color: #000000; /* Black */
-	border: 1px soild #000000; /* Black */
-	border-radius: 5px;
+	background-color: #007dac; /* Dark Blue */
+	color: #ffffff; /* White */
+	border: 1px soild #ffffff; /* White */
 		transform: translateY(2px); /* Move down on hover */
 }
 
