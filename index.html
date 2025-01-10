@@ -5,21 +5,21 @@
 	<meta name="viewport" content="width=divice-width, initial-scale=1.0">
 	<title>Template Mystic</title>
 	<link rel="stylesheet" href="Css/StyleIndex.css">
-	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&family=Montserrat:wght@400;700&family=Pacifico&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-	<header>
-		<nav class="top-right-menu">
-			<a href="#" id="login">Login</a>
-			<a href="#" id="subscribe">Subscribe</a>
-			<span id="username">Username</span>
-			<a href="#" id="cart">
-				<img src="cart-icon.png" class="cart-icon" alt="Cart-Icon">
-				<span id="cart-count>0</span>
-			</a>
+	<header class="header">
+		<nav class="nav">
+			<a href="#">Subscribe</a>
+			<a href="#" id="auth-link">Login</a>
 		</nav>
+		<div class="user-info">
+			<span id="username" style="display: none;">Username</span>
+			<a href="#" class="cart">
+				<img src="cart-icon.png" alt="Cart">
+				<span id="cart-total">0 items</span>
+			</a>
+		</div>
 	</header>
-	
 	<nav>
 		<div class="navbar">
 			<button class="nav-button">Home</button>			
