@@ -6,9 +6,9 @@ body {
 	padding: 0;
 }
 .container {
-	width: 90%;
+	width: 100%;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 1 auto;
 	padding: 1em 0;
 }
 @font-face {
