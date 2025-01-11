@@ -39,15 +39,16 @@ header {
 .nav-user-info {
 	display: flex;
 	align-items: center;
+	flex-grow: 1;
+	justify-items: flex-end;
 }
 .nav {
 	display: flex;
 	align-items: center;
-	margin-right: 20px;
 }
 .nav a {
 	color: #000000; /* Black */
-	margin-right: 5px;
+	margin-right: 20px;
 	text-decoration: none;
 	font-size: 1.4em;
 }
@@ -60,7 +61,7 @@ header {
 }
 .user-info span,
 .user-info a{
-	margin-right: 5px;
+	margin-right: 15px;
 	color: #000000; /* black */
 	text-decoration: none;
 	font-size: 1.4em;
