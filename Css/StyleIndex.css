@@ -26,16 +26,18 @@ body {
 
 /* Header styling */
 header {
-	background-image: url('../Images/Header1.png');
-	background-size: contain;
-	background-position: center;
-	background-repeat: no-repeat;
 	height: 100vh;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	align-items: flex-start;
 	padding:10px 20 px;
 	color: #000000; /* Black */
+	overflow: hidden;
+}
+.header-image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 .nav-user-info {
 	display: flex;
