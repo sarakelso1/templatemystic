@@ -31,7 +31,7 @@ header {
 	background-position: center;
 	height: 200px;
 	display: flex;
-	justify-content: flex-end;
+	justify-content: flex-start;
 	align-items: flex-start;
 	padding:10px 20 px;
 	color: #000000; /* Black */
