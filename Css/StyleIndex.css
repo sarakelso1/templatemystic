@@ -29,6 +29,7 @@ header {
 	background-image: url('../Images/Header1.png');
 	background-size: contain;
 	background-position: center;
+	background-repeat: no-repeat;
 	height: 100vh;
 	display: flex;
 	justify-content: flex-end;
