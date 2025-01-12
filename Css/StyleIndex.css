@@ -13,15 +13,15 @@ body {
 }
 @font-face {
 	font-family: 'High Tower';
-	src: url('fonts/High Tower.ttf') format('truetype');
+	src: url('../Fonts/High Tower.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Monotype';
-	src: url('fonts/Monotype.ttf') format('truetype');
+	src: url('../Fonts/Monotype.ttf') format('truetype');
 }
 @font-face {
 	font-family: 'Source Sans';
-	src: url('fonts/Source Sans.ttf') format('truetype');
+	src: url('../Fonts/Source Sans.ttf') format('truetype');
 }
 
 /* Header styling */
@@ -30,7 +30,7 @@ header {
 	background-image: url('../Images/Header1.png');
 	background-size: cover;
 	background-position: center;
-	justify-content: flex-start;
+	justify-content: flex-end;
 	align-items: flex-start;
 	padding:10px 20 px;
 	color: #000000; /* Black */
@@ -179,13 +179,41 @@ input[type="text"] {
 		transform: translateY(2px); /* Move down on hover */
 }
 
+/* Hero Section */
 .hero {
-	background-image: url=('../Images/SpringSale.png'); /* Forest Green */
+	background-image: url('../Images/SpringSale.png');
+	background-size: cover;
+	background-position: center;
 	text-align: center;
-	padding: 4em 0;
-	color: #ffffff;
-	height: 300px;
+	padding: 100px 0;
+	position: relative;
 }
+.hero .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	height: 200px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	transform: translatex(-50%);
+}
+
+/* CTA Button */
+.cta-button{
+	background-color: #98ffb4; /* Light Green */
+	border: none;
+	color: #000000; /* White */
+	Padding: 15px 30px;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+}
+.cta-button:hover {
+	background-color: #009933;
+	text-decoration: underline;
+}
+
 .features {
 	background-color: #ffffff;
 	color: #333;
