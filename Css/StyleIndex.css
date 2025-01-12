@@ -188,15 +188,17 @@ input[type="text"] {
 	padding: 100px 0;
 	position: relative;
 	height: 200px;
+	width: 1200px;
 }
-.hero .container {
-	max-width: 1200px;
-	margin: 0 auto;
+.container {
+	width: 100%;
 	padding: 20px;
 	position: absolute;
 	bottom: 20px;
 	left: 50%;
-	transform: translate(-50%, 0);
+	transform: translateX(-50%, 0);
+	display: flex;
+	justify-content: center;
 }
 
 /* CTA Button */
@@ -208,6 +210,7 @@ input[type="text"] {
 	font-size: 18px;
 	font-weight: bold;
 	cursor: pointer;
+	border-radius: 5px;
 	transition: background-color 0.3s ease;
 }
 .cta-button:hover {
